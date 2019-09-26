@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
   const arr = str.split("");
-  const num = 0;
+  const res = [];
   if(str.length % 2 !== 0) return false;
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < bracketsConfig.length; j++) {
